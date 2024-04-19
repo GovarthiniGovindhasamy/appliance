@@ -1,0 +1,110 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  padding-left: 500px;
+}
+
+.navlinks {
+  padding-left: 500px;
+  text-align: end;
+}
+
+.buttonsignin {
+  height: 30px;
+  border-radius: 7px;
+  background-color: rgb(135, 94, 170);
+}
+
+.bg1 {
+  background-repeat: no-repeat;
+}
+
+nav {
+  text-align: right; 
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block; 
+  margin-left: 10px;
+}
+
+nav li:first-child {
+  margin-left: 0; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: #333; 
+  padding: 5px 10px; 
+  border: 1px solid #333; 
+  border-radius: 5px; 
+}
+
+nav a:hover {
+  background-color: #333; 
+  color: #fff; 
+}
+
+h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(244, 2, 2);
+  padding-right: 150px;
+  line-height: 2;
+}
+
+.bgs {
+  height: 100%;
+}
+
+.main {
+  color: black;
+  text-align: center;
+}
+
+.offer {
+  color: red;
+}
+
+h4{
+  padding-left: 240px;
+  padding-right: 240px;
+  color: rgb(54, 120, 142);
+}
+
+.laptop {
+  padding-top: 40px;
+  color: black;
+}
+
+.lap {
+  color: crimson;
+}
+
+.mobiles {
+  color: rgb(33, 10, 243);
+}
+
+h5 {
+  padding-right: 310px;
+}
+
+.phone{
+  padding-left: 250px;
+}
+.footer{
+  background-color: black;
+  color:white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
